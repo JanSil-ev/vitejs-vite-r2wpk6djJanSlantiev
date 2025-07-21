@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "src/App.tsx", "src/index.tsx", "src/main.tsx", "src/react-app-env.d.ts", "src/types.ts", "src/vite-env.d.ts", "src/pages/TodoList", "src/components/Button", "src/components/Input", "src/serverData", "src/components/Modal", "src/components/CircularProgressBar"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

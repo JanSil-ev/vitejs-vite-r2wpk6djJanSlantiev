@@ -1,7 +1,7 @@
-@use '../styles/index.scss' as *;
-@use '../styles/breakpoints.scss' as breakpoints;
+@use '../../../styles/index.scss' as *;
+@use '../../../styles/breakpoints.scss' as breakpoints;
 
-.task-card {
+.taskCard {  
   background: $white;
   box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
   border-radius: 24px;
@@ -16,21 +16,21 @@
   }
 }
 
-.task-title {
+.taskTitle { 
   font-size: 14px;
   font-weight: 400;
   color: $secondary-color;
   margin-bottom: 7px;
 }
 
-.task {
+.task { 
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
   color: $primary-color;
 }
 
-.priority-title {
+.priorityTitle {  
   font-size: 14px;
   font-weight: 400;
   color: $secondary-color;
@@ -40,23 +40,23 @@
   }
 }
 
-.priority {
+.priority { 
   font-size: 14px;
   font-weight: 700;
   color: $success-color;
   text-transform: capitalize;
 }
-.priority--high {
+.priority--high { 
   color: $error-color;
 }
-.priority--medium {
+.priority--medium { 
   color: $warning-color;
 }
-.priority--low {
+.priority--low { 
   color: $success-color;
 }
 
-.task-status-wrapper {
+.taskStatusWrapper { 
   width: 100px;
   text-align: center;
   @include breakpoints.devices(sm) {
@@ -65,7 +65,7 @@
   }
 }
 
-.status {
+.status { 
   background: rgba(125, 133, 146, 0.14);
   border-radius: 8px;
   padding: 7px 14px;
@@ -77,21 +77,21 @@
   cursor: pointer;
 }
 
-.status--progress {
+.status--progress {  
   background-color: rgba(255, 189, 33, 0.2);
 }
 
-.status--done {
+.status--done { 
   background-color: rgba(10, 201, 71, 0.2);
 }
 
-.progress {
+.progress { 
   @include breakpoints.devices(sm) {
     margin-top: 15px;
   }
 }
 
-.actions {
+.actions { 
   @include breakpoints.devices(sm) {
     margin-top: 15px;
   }
